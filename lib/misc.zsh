@@ -56,3 +56,4 @@ function encrypt() {
 function decrypt() {
     openssl des3 -d -a -in $1 -out ${1%.des3}
 }
+
