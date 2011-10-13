@@ -33,6 +33,12 @@ alias gss='git status -s'
 compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
+alias gf='git fetch'
+compdef _git gfo=git-fetch
+alias gfo='git fetch origin'
+compdef _git gf=git-fetch
+alias gsh='git stash'
+compdef _git gsh=git-stash
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
@@ -56,3 +62,5 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+alias gptc='git push origin $(current_branch):refs/remote-run/ben/$(current_branch)'
+compdef gptc=git
