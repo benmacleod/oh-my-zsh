@@ -33,10 +33,16 @@ alias gss='git status -s'
 compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
+alias gm='git merge'
+compdef _git gm=git-merge
+alias gr='git rebase'
+compdef _git gr=git-rebase
 alias gf='git fetch'
 compdef _git gfo=git-fetch
 alias gfo='git fetch origin'
 compdef _git gf=git-fetch
+alias gfx='git fix'
+alias gsy='git sync'
 alias gsh='git stash'
 compdef _git gsh=git-stash
 
