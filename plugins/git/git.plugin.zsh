@@ -46,6 +46,8 @@ alias gfx='git fix'
 alias gsy='git sync'
 alias gsh='git stash'
 compdef _git gsh=git-stash
+alias grh='git reset HEAD'
+alias grhh='git reset HEAD --hard'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
