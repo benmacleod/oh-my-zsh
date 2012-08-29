@@ -8,3 +8,9 @@ cache
 .DS_Store
 *.swp
 
+custom/*
+!custom/example
+!custom/example.zsh
+*.swp
+!custom/example.zshcache
+cache/
